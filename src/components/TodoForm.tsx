@@ -12,6 +12,7 @@ const TodoForm = () => {
             body: newTodo
         }
         createMutate(todo)
+        setNewTodo("")
     }
 
     return (
